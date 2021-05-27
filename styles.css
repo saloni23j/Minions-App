@@ -1,9 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 :root{
     --primary-color: #ffc93c;
 }
 body{
     text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 /* NAVIGATION */
 .container-fluid{
@@ -51,3 +52,16 @@ body{
      max-width: 50%;
      margin: auto;
  }
+
+ /* BUTTON DECORATIONS */
+ #btn-translate{
+     color: black;
+ }
+ 
+
+ .btn:hover {background-color: var(--primary-color)}
+
+.btn:active {
+  background-color: #ffc947;
+ 
+}
