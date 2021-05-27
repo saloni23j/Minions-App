@@ -2,6 +2,9 @@
 :root{
     --primary-color: #ffc93c;
 }
+body{
+    text-align: center;
+}
 /* NAVIGATION */
 .container-fluid{
      
@@ -11,14 +14,24 @@
 .head{
     text-align: center;
 }
-
+/* INPUT */
+ .txt-area{
+    padding-top: 50px;
+    padding-bottom: 20px ;
+} 
 #text-input{
     height : 10vh;
     width : 450px ;
     display: block;
+    text-align: center;
 }
+/* OUTPUT */
 #output{
     border: 2px solid black;
     height: 10vh;
-    width: 600px;
+    width: 450px;
+   margin:auto ;
+}
+.output-head{
+    padding-top : 50px;
 }
