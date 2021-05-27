@@ -1,0 +1,10 @@
+#text-input{
+    height : 10vh;
+    width : 450px ;
+    display: block;
+}
+#output{
+    border: 2px solid black;
+    height: 10vh;
+    width: 600px;
+}
