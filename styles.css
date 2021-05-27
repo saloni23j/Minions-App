@@ -1,3 +1,17 @@
+
+:root{
+    --primary-color: #ffc93c;
+}
+/* NAVIGATION */
+.container-fluid{
+     
+    background-color: var(--primary-color);
+    padding: 25px;
+}
+.head{
+    text-align: center;
+}
+
 #text-input{
     height : 10vh;
     width : 450px ;
